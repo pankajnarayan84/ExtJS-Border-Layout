@@ -23,14 +23,11 @@ Ext.application({
                     region: 'center',
                     xtype: 'tabpanel',
                     items: [{
-                        title: 'Bogus Tab',
-                        html: 'Hello world 1'
+                        title: 'Tab 1',
+                        html: 'Hello world'
                     }, {
-                        title: 'Another Tab',
-                        html: 'Hello world 2'
-                    }, {
-                        title: 'Closable Tab',
-                        html: 'Hello world 3',
+                        title: 'Tab 2',
+                        html: 'Closable Tab',
                         closable: true
                     }]
                 }
